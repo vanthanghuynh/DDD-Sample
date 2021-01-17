@@ -5,15 +5,15 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentScheduling.API", "AppointmentScheduling.API\AppointmentScheduling.API.csproj", "{C729924E-93A4-4CFD-9879-581E151B7E40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentScheduling.Core", "AppointmentScheduling.Core\AppointmentScheduling.Core.csproj", "{0DE88D0B-82D5-4169-9D29-43A5B77A31E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentScheduling.Core", "AppointmentScheduling.Core\AppointmentScheduling.Core.csproj", "{0DE88D0B-82D5-4169-9D29-43A5B77A31E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentScheduling.Services", "AppointmentScheduling.Services\AppointmentScheduling.Services.csproj", "{AE65D892-74BE-4FAC-A028-E26B29F70007}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentScheduling.Services", "AppointmentScheduling.Services\AppointmentScheduling.Services.csproj", "{AE65D892-74BE-4FAC-A028-E26B29F70007}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentScheduling.Infrastructure", "AppointmentScheduling.Infrastructure\AppointmentScheduling.Infrastructure.csproj", "{A1D29104-8BEC-4BCC-91AB-A7528184FCB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentScheduling.Infrastructure", "AppointmentScheduling.Infrastructure\AppointmentScheduling.Infrastructure.csproj", "{A1D29104-8BEC-4BCC-91AB-A7528184FCB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentScheduling.Test", "AppointmentScheduling.Test\AppointmentScheduling.Test.csproj", "{0711FEBF-9938-496C-ABC9-8FFB1A8BE253}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentScheduling.Test", "AppointmentScheduling.Test\AppointmentScheduling.Test.csproj", "{0711FEBF-9938-496C-ABC9-8FFB1A8BE253}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentScheduling.Database", "AppointmentScheduling.Database\AppointmentScheduling.Database.csproj", "{A864479B-E7BA-4B5A-A202-9C945ECA457B}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AppointmentScheduling.Database", "AppointmentScheduling.Database\AppointmentScheduling.Database.sqlproj", "{77A38BB1-9887-4CCA-979F-E0BD23D86A49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,12 @@ Global
 		{0711FEBF-9938-496C-ABC9-8FFB1A8BE253}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0711FEBF-9938-496C-ABC9-8FFB1A8BE253}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0711FEBF-9938-496C-ABC9-8FFB1A8BE253}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A864479B-E7BA-4B5A-A202-9C945ECA457B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A864479B-E7BA-4B5A-A202-9C945ECA457B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A864479B-E7BA-4B5A-A202-9C945ECA457B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A864479B-E7BA-4B5A-A202-9C945ECA457B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A38BB1-9887-4CCA-979F-E0BD23D86A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A38BB1-9887-4CCA-979F-E0BD23D86A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A38BB1-9887-4CCA-979F-E0BD23D86A49}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{77A38BB1-9887-4CCA-979F-E0BD23D86A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A38BB1-9887-4CCA-979F-E0BD23D86A49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A38BB1-9887-4CCA-979F-E0BD23D86A49}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

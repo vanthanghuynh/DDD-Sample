@@ -4,11 +4,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="AggregatesModel\ClientAggregate\" />
-    <Folder Include="AggregatesModel\DoctorAggregate\" />
-    <Folder Include="AggregatesModel\RoomAggregate\" />
-    <Folder Include="AggregatesModel\ScheduleAggregate\" />
-  </ItemGroup>
-
 </Project>
