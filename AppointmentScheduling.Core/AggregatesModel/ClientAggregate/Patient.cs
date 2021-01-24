@@ -6,9 +6,11 @@ namespace AppointmentScheduling.Core.AggregatesModel.ClientAggregate
 {
     public class Patient : Entity<Guid>
     {
+        public Guid ClientId { get; private set; }
+
         public string Name { get; private set; }
 
-        public GenderType Gender { get; private set; }
+        public GenderType GenderType { get; private set; }
 
         public AnimalType AnimalType { get; private set; }
     }
