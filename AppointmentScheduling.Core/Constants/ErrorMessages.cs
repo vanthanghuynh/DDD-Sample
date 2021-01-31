@@ -3,7 +3,8 @@ namespace AppointmentScheduling.Core.Constants
 {
     public static class ErrorMessages
     {
-        public const string ERR_VALIDATION_CLIENT_FULLNAME_EMPTY = "Client validation: Fullname is required.";
+        public const string ERR_VALIDATION_CLIENT_FIRST_NAME_EMPTY = "Client validation: FirstName is required.";
+        public const string ERR_VALIDATION_CLIENT_LAST_NAME_EMPTY = "Client validation: LastName is required.";
         
         public const string ERR_VALIDATION_PATIENT_CLIENT_ID_NULL = "Patient validation: ClientId is required.";
         public const string ERR_VALIDATION_PATIENT_ANIMAL_TYPE_NULL = "Patient validation: AnimalType is required.";

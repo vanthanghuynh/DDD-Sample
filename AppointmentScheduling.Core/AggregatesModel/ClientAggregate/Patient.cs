@@ -2,7 +2,7 @@
 using AppointmentScheduling.Core.Common;
 using System;
 
-namespace AppointmentScheduling.Core.AggregatesModel.ClientAggregate
+namespace AppointmentScheduling.Core.AggregatesModel
 {
     public class Patient : Entity<Guid>
     {
@@ -10,7 +10,7 @@ namespace AppointmentScheduling.Core.AggregatesModel.ClientAggregate
 
         public string Name { get; private set; }
 
-        public GenderType GenderType { get; private set; }
+        public GenderType Gender { get; private set; }
 
         public AnimalType AnimalType { get; private set; }
     }

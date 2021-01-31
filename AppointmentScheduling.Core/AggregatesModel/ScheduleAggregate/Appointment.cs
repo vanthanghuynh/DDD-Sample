@@ -2,7 +2,7 @@
 using AppointmentScheduling.Core.CommonValueObjects;
 using System;
 
-namespace AppointmentScheduling.Core.AggregatesModel.ScheduleAggregate
+namespace AppointmentScheduling.Core.AggregatesModel
 {
     public class Appointment : Entity<Guid>
     {
@@ -12,9 +12,11 @@ namespace AppointmentScheduling.Core.AggregatesModel.ScheduleAggregate
 
         public Guid RoomId { get; private set; }
 
-        public Guid? DoctorId { get; private set; }
+        public Guid DoctorId { get; private set; }
 
         public Guid AppointmentTypeId { get; private set; }
+
+        public Guid ScheduleId { get; private set; }
 
         public DateTimeRange TimeRange { get; private set; }
 

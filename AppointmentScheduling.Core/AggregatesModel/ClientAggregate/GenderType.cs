@@ -1,4 +1,4 @@
-﻿namespace AppointmentScheduling.Core.AggregatesModel.ClientAggregate
+﻿namespace AppointmentScheduling.Core.AggregatesModel
 {
     public enum GenderType
     {

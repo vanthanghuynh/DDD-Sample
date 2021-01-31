@@ -1,7 +1,7 @@
 ﻿using AppointmentScheduling.Core.Common;
 using System;
 
-namespace AppointmentScheduling.Core.AggregatesModel.RoomAggregate
+namespace AppointmentScheduling.Core.AggregatesModel
 {
     public class Room : Entity<Guid>
     {

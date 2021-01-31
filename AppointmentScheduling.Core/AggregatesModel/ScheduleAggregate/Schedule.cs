@@ -3,7 +3,7 @@ using AppointmentScheduling.Core.CommonValueObjects;
 using System;
 using System.Collections.Generic;
 
-namespace AppointmentScheduling.Core.AggregatesModel.ScheduleAggregate
+namespace AppointmentScheduling.Core.AggregatesModel
 {
     public class Schedule : Entity<Guid>
     {

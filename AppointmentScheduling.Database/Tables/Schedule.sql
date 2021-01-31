@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Schedule]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [StartDate] DATETIME NULL, 
+    [EndDate] DATETIME NULL
+)

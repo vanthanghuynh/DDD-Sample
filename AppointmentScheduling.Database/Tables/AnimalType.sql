@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[AnimalType]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Species] NVARCHAR(50) NOT NULL, 
+    [Breed] NVARCHAR(50) NOT NULL
+)

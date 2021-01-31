@@ -4,5 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AppointmentScheduling.Core\AppointmentScheduling.Core.csproj" />
+    <ProjectReference Include="..\AppointmentScheduling.Infrastructure\AppointmentScheduling.Infrastructure.csproj" />
+  </ItemGroup>
+
 
 </Project>

@@ -1,8 +1,8 @@
-﻿using AppointmentScheduling.Core.AggregatesModel.RoomAggregate;
+﻿using AppointmentScheduling.Core.AggregatesModel;
 using AppointmentScheduling.Core.Constants;
 using FluentValidation;
 
-namespace AppointmentScheduling.Core.Validations.RoomAggregate
+namespace AppointmentScheduling.Core.Validations
 {
     public class RoomValidator : AbstractValidator<Room>
     {

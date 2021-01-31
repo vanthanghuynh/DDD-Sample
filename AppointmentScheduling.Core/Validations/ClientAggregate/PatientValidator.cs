@@ -1,8 +1,8 @@
-﻿using AppointmentScheduling.Core.AggregatesModel.ClientAggregate;
+﻿using AppointmentScheduling.Core.AggregatesModel;
 using AppointmentScheduling.Core.Constants;
 using FluentValidation;
 
-namespace AppointmentScheduling.Core.Validations.ClientAggregate
+namespace AppointmentScheduling.Core.Validations
 {
     public class PatientValidator : AbstractValidator<Patient>
     {
@@ -16,7 +16,7 @@ namespace AppointmentScheduling.Core.Validations.ClientAggregate
                 .NotNull()
                 .WithMessage(ErrorMessages.ERR_VALIDATION_PATIENT_ANIMAL_TYPE_NULL);
 
-            RuleFor(p => p.GenderType)
+            RuleFor(p => p.Gender)
                 .NotNull()
                 .WithMessage(ErrorMessages.ERR_VALIDATION_PATIENT_GENDER_TYPE_NULL);
         }
